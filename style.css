@@ -1,0 +1,31 @@
+h1 {
+    color: blueviolet;
+    size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+p {
+ color:chocolate;
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+  
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: brown;
+}
+.main-nav__item a:hover {
+    color:chartreuse;
+}
+.main-nav__item a:active {
+    color:blue;
+}
